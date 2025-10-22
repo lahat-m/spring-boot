@@ -2,15 +2,15 @@ name: catalog-service
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master
+                - '**' ]
     paths:
       - 'catalog-service/**'
-    branches:
-      - '**'
+
 jobs:
   build:
     name: Build
-    runs-on: windows-latest
+    runs-on: ubuntu-22.04
     env:
       working-directory: ./catalog-service
     defaults:
