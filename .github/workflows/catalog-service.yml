@@ -2,8 +2,9 @@ name: catalog-service
 
 on:
   push:
-    branches: [ master
-                - '**' ]
+    branches:
+      - main
+      - '**'
     paths:
       - 'catalog-service/**'
 
