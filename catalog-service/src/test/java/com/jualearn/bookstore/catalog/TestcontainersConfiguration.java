@@ -1,4 +1,4 @@
-package com.jualearn.catalog_service;
+package com.jualearn.bookstore.catalog;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;
